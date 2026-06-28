@@ -31,6 +31,7 @@
         p {
             color: #cbd5e1;
             font-size: 16px;
+            line-height: 1.6;
         }
 
         section {
@@ -42,7 +43,7 @@
             backdrop-filter: blur(12px);
             padding: 25px;
             margin: 15px auto;
-            width: 85%;
+            width: 90%;
             max-width: 750px;
             border-radius: 16px;
             border: 1px solid rgba(255,255,255,0.1);
@@ -66,10 +67,38 @@
             transform: scale(1.05);
         }
 
+        .btn-outline {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            border: 2px solid #38bdf8;
+            color: #38bdf8;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn-outline:hover {
+            background: #38bdf8;
+            color: black;
+        }
+
         footer {
             margin-top: 60px;
             padding: 20px;
             color: #94a3b8;
+        }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .card {
+                width: 95%;
+            }
         }
     </style>
 </head>
@@ -79,6 +108,9 @@
 <header>
     <h1>Hi, I'm Oscar Mhlongo 👋</h1>
     <p>Aspiring Software Developer | IT Student | Future Tech Entrepreneur</p>
+
+    <a class="btn" href="#projects">View Projects</a>
+    <a class="btn-outline" href="#contact">Contact Me</a>
 </header>
 
 <section>
@@ -86,8 +118,8 @@
     <div class="card">
         <p>
             I am an IT student passionate about software development, problem solving,
-            and building real-world applications. I am currently learning programming
-            step by step while improving my technical skills.
+            and building real-world applications. I am focused on improving my skills
+            step by step and building a strong developer foundation.
         </p>
     </div>
 </section>
@@ -99,7 +131,7 @@
     </div>
 </section>
 
-<section>
+<section id="projects">
     <h2>Projects</h2>
 
     <div class="card">
@@ -115,12 +147,14 @@
     </div>
 </section>
 
-<section>
+<section id="contact">
     <h2>Contact</h2>
     <div class="card">
         <p>Email: your-email@example.com</p>
         <p>LinkedIn: add your link here</p>
         <p>GitHub: github.com/Oscar-Mhlongo-IT</p>
+
+        <a class="btn" href="mailto:your-email@example.com">Email Me</a>
     </div>
 </section>
 
