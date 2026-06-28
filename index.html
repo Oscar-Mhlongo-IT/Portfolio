@@ -3,71 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscar Mhlongo Portfolio</title>
+    <title>Oscar Mhlongo | Developer Portfolio</title>
 
-   <style>
-    body {
-        margin: 0;
-        font-family: 'Segoe UI', sans-serif;
-        background: linear-gradient(135deg, #0f172a, #1e293b);
-        color: white;
-        line-height: 1.6;
-    }
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            text-align: center;
+        }
 
-    header {
-        padding: 80px 20px;
-    }
+        header {
+            padding: 90px 20px;
+        }
 
-    h1 {
-        font-size: 48px;
-        margin-bottom: 10px;
-    }
+        h1 {
+            font-size: 52px;
+            margin-bottom: 10px;
+        }
 
-    h2 {
-        margin-top: 50px;
-        font-size: 28px;
-        color: #38bdf8;
-    }
+        h2 {
+            color: #38bdf8;
+            margin-top: 60px;
+        }
 
-    p {
-        color: #cbd5e1;
-    }
+        p {
+            color: #cbd5e1;
+            font-size: 16px;
+        }
 
-    section {
-        padding: 20px;
-    }
+        section {
+            padding: 20px;
+        }
 
-    .card {
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        padding: 20px;
-        margin: 15px auto;
-        width: 80%;
-        max-width: 700px;
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.1);
-    }
+        .card {
+            background: rgba(255, 255, 255, 0.06);
+            backdrop-filter: blur(12px);
+            padding: 25px;
+            margin: 15px auto;
+            width: 85%;
+            max-width: 750px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
 
-    a {
-        color: #38bdf8;
-        font-weight: bold;
-        text-decoration: none;
-    }
+        .btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: #38bdf8;
+            color: black;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
 
-    a:hover {
-        text-decoration: underline;
-    }
+        .btn:hover {
+            background: #0ea5e9;
+            transform: scale(1.05);
+        }
 
-    .btn {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10px 15px;
-        background: #38bdf8;
-        color: black;
-        border-radius: 8px;
-        font-weight: bold;
-    }
-</style>
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            color: #94a3b8;
+        }
+    </style>
 </head>
 
 <body>
@@ -80,14 +84,18 @@
 <section>
     <h2>About Me</h2>
     <div class="card">
-        <p>I am an IT student passionate about software development and building real-world applications.</p>
+        <p>
+            I am an IT student passionate about software development, problem solving,
+            and building real-world applications. I am currently learning programming
+            step by step while improving my technical skills.
+        </p>
     </div>
 </section>
 
 <section>
     <h2>Skills</h2>
     <div class="card">
-        <p>Python | Java | HTML | CSS | Git | GitHub</p>
+        <p>Python | Java | JavaScript | HTML | CSS | Git | GitHub | VS Code</p>
     </div>
 </section>
 
@@ -95,13 +103,15 @@
     <h2>Projects</h2>
 
     <div class="card">
-        <h3>Python Calculator</h3>
+        <h3>🧮 Python Calculator</h3>
+        <p>Basic calculator built using Python with user input and logic operations.</p>
         <a class="btn" href="https://github.com/Oscar-Mhlongo-IT/python-calculator" target="_blank">View Project</a>
     </div>
 
     <div class="card">
-        <h3>To-Do List App</h3>
-        <a class="btn" href="https://github.com/Oscar-Mhlongo-IT/python-calculator" target="_blank">View Project</a>
+        <h3>📝 To-Do List App</h3>
+        <p>Command-line task manager built using Python lists and loops.</p>
+        <a class="btn" href="https://github.com/Oscar-Mhlongo-IT/todo-list-python" target="_blank">View Project</a>
     </div>
 </section>
 
@@ -109,9 +119,14 @@
     <h2>Contact</h2>
     <div class="card">
         <p>Email: your-email@example.com</p>
-        <p>LinkedIn: add later</p>
+        <p>LinkedIn: add your link here</p>
+        <p>GitHub: github.com/Oscar-Mhlongo-IT</p>
     </div>
 </section>
+
+<footer>
+    <p>🚀 Built by Oscar Mhlongo | Learning. Building. Improving.</p>
+</footer>
 
 </body>
 </html>
